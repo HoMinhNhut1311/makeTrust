@@ -1,0 +1,110 @@
+.hnew_sp {
+
+    height: 250px;
+
+    .hnew_sp_container {
+        height: 100%;
+    }
+
+   
+    .content-left {
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .content-middle {
+        .img-50 {
+            height: 50%;
+
+            img {
+                border-radius: 10px;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+    }
+
+    .content-right {
+        
+        .rank-container {
+            background-color: white;
+            height: 100%;
+            border-radius: 10px;
+
+            .header__title {
+                font-size: 1.3rem;
+                .header__tilte-icon {
+                    font-size: 1.8rem;
+                    display: inline-block;
+                    color: #efbb78;
+                }
+                span {
+                    text-transform: capitalize;
+                    font-weight: 15px;
+                    font-weight: bold;
+                }
+            }
+            .header__tab-list {
+                padding: 4px 5px;
+                border: 1px solid rgba(190, 174, 174, 0.304);
+                border-radius: 10px;
+
+                .header_tab-item {
+                    font-family: sans-serif;
+                    border: none;
+                    outline: none;
+                    background-color: white;
+                    font-size: 0.9rem;
+                    padding: 6px 25px;
+                    font-weight: bold;
+                    margin: 4px 5px;
+                    border-radius: 10px;
+                    color: black;
+                    transition: background-color 0.4s ease-out;
+
+                    &.active {
+                        background-color: rgb(237, 23, 12);
+                        color: white;
+                    }
+                }
+            }
+            .tab-content {
+
+               .tab-item {
+                    margin: 2px;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 4px 10px;
+                    span {
+                        display: block;
+                    }
+
+                    &.__index {
+                        border-radius: 10px;
+                        font-weight: bold;
+                        color: white;
+                        background-color: #efbb78;
+                    }
+
+                    &.__id {
+                            color: black;
+                            font-weight: bold;
+                    }
+
+                    &.__price {
+                        color: white;
+                        font-weight: bold;
+                        padding: 4px 20px   ;
+                        border-radius: 8px;
+                        background-color:  rgb(228, 21, 10);
+                    }
+               }
+            }
+
+          
+        }
+    }
+}

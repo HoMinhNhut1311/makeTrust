@@ -1,0 +1,63 @@
+.flash-sale__container {
+    background-color: #fff; // Nền trắng cho container
+    border-radius: 8px; // Bo góc cho container
+    overflow: hidden; // Ẩn bất kỳ phần nào bị tràn ra ngoài
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Thêm bóng cho container
+
+    .flash-sale__header {
+        display: flex;
+        align-items: center;
+        background-color: #dc3545; // Màu nền đỏ cho header
+        color: #fff; // Màu chữ trắng
+        padding: 10px 15px; // Padding cho header
+        border-bottom: 1px solid #c82333; // Đường viền dưới header
+
+        .fs-5 {
+            font-size: 1.25rem; // Kích thước chữ cho tiêu đề
+        }
+
+        .text-capitalize {
+            text-transform: capitalize; // Viết hoa chữ cái đầu
+        }
+
+        .me-2 {
+            margin-right: 0.5rem; // Khoảng cách giữa biểu tượng và văn bản
+        }
+
+        .mb-1 {
+            margin-bottom: 0.25rem; // Khoảng cách dưới biểu tượng
+        }
+    }
+
+    .flash-sale__content {
+        background-color: #f8d7da; 
+        padding: 10px;
+
+        .row {
+        }
+
+        .flash-sale__content-item {
+            cursor: pointer;
+            background-color: #fff; 
+            border: 1px solid #ddd; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+            margin-bottom: 10px; 
+            text-align: center; 
+            transition: background-color 0.3s ease-in , color 0.7s ease-in-out;
+
+            &:hover {
+                color: white;
+                background-color: #c82333;
+            }
+
+            .fs-3 {
+                font-size: 1.5rem; 
+            }
+
+            span {
+                display: block; 
+            }
+        }
+    }
+}

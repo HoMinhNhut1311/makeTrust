@@ -1,0 +1,69 @@
+.header-sp {
+    text-wrap: nowrap;
+
+    .header-sp__top {
+        font-size: 1.05rem;
+        text-transform: capitalize;
+        border-bottom: 1px solid rgba(167, 135, 135, 0.373);
+        font-weight: bold;
+        color: green;
+    }
+    
+    .header-sp__bottom {
+        .content-left {
+            flex: 0.2;
+        }
+
+        .content-middle {
+            flex: 1;
+            .form-search {
+                margin-left: 10px;
+                width: 88%;
+                padding: 8px 12px;
+                border: 1px solid rgb(217, 209, 209);
+                border-radius: 10px;
+
+                input {
+                    font-size: 0.9rem;
+                    border: none;
+                    outline: none;
+                }
+                button {
+                    font-weight: 600;
+                }
+                
+
+                button {
+                    border: none;
+                    outline: none;
+                    background-color: white;
+                    color: #ef4444;
+                }
+            }
+        }
+
+        .content-right {
+            flex: 0.5;
+        }
+    }
+
+    .header-sp__info {
+        font-weight: bold;
+        color:  white;
+        font-size: 0.9rem;
+
+        .info-icon {
+        }
+
+        .info-title {
+        }
+        .info-des {
+            color: yellow;
+            
+        }
+        .info-mark {
+            color: white;
+        }
+    }
+
+}

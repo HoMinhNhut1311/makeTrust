@@ -1,0 +1,17 @@
+spring :
+  application:
+    name: makeTrust
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: minhnhut0210
+    url: jdbc:postgresql://localhost:5432/make_trust
+
+cloudinary :
+  cloud_name : dx1qqpmnt
+  api_key : 961196822775721
+  api_secret : gnnreQnaCdgo5XZrlMs6FKQuNd4
